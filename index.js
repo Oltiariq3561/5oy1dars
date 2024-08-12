@@ -365,3 +365,121 @@
 // console.log(res);
 
 // 777777777777777777777777777777777777777777777777777
+
+// let arr = [1,2,3,4,5]
+// function test(arg) {
+//     let res = arg.map(function(value) {
+//         return value**3
+//     })
+//     return res
+// }
+// let res = test(arr);
+// console.log(res);
+
+// let arr = [1,2,3,4,5]
+// let test = function(arg) {
+//     let res = arg.map(function(value) {
+//         return value**3
+//     })
+//     return res
+// }
+// let res = test(arr);
+// console.log(res);
+
+// let arr = [1,2,3,4,5]
+// let test = (arg) => {
+//     let res = arg.map(function(value) {
+//         return value**3
+//     })
+//     return res
+// }
+// let res = test(arr);
+// console.log(res);
+
+// 8888888888888888888888888888888888888888888888888888888888888
+
+// let arr = 'salom bolalar';
+// function test(arg) {
+//     let res = arg.split('').reverse()
+//     let sum = ''
+//     for (const i of res) {
+//         if (typeof i == 'string' && i == 'a' || i == 'e' || i == 'o' || i == 'i' || i == 'u' || i == 'A' || i == 'E' || i == 'O' || i == 'I' || i == 'U' ) {
+//             sum +=i
+//         }
+//     }
+//     return sum;
+// }
+// let res = test(arr);
+// console.log(res);
+
+// let arr = 'salom bolalar';
+// let test = function(arg) {
+//     let res = arg.split('').reverse()
+//     let sum = ''
+//     for (const i of res) {
+//         if (typeof i == 'string' && i == 'a' || i == 'e' || i == 'o' || i == 'i' || i == 'u' || i == 'A' || i == 'E' || i == 'O' || i == 'I' || i == 'U' ) {
+//             sum +=i
+//         }
+//     }
+//     return sum;
+// }
+// let res = test(arr);
+// console.log(res);
+
+// let arr = 'salom bolalar';
+// let test = (arg) => {
+//     let res = arg.split('').reverse()
+//     let sum = ''
+//     for (const i of res) {
+//         if (typeof i == 'string' && i == 'a' || i == 'e' || i == 'o' || i == 'i' || i == 'u' || i == 'A' || i == 'E' || i == 'O' || i == 'I' || i == 'U' ) {
+//             sum +=i
+//         }
+//     }
+//     return sum;
+// }
+// let res = test(arr);
+// console.log(res);
+
+// 10101010101010101010101010101010101010101010101010101010
+
+// let arr = 'salom bolalar';
+// let minus = 'bolalar'
+// function test(arg,minus) {
+//     let sum = ''
+//     for (const i of arg) {
+//         if (i!=minus) {
+//             sum+=i
+//         }
+//     }
+//     return sum;
+// }
+// let res = test(arr,minus);
+// console.log(res);
+
+// let arr = 'salom bolalar';
+// let minus = 'bolalar'
+// let test = function(arg,minus) {
+//     let sum = ''
+//     for (const i of arg) {
+//         if (i!=minus) {
+//             sum+=i
+//         }
+//     }
+//     return sum;
+// }
+// let res = test(arr,minus);
+// console.log(res);
+
+// let arr = 'salom bolalar';
+// let minus = 'bolalar'
+// let test = (arg,minus) => {
+//     let sum = ''
+//     for (const i of arg) {
+//         if (i!=minus) {
+//             sum+=i
+//         }
+//     }
+//     return sum;
+// }
+// let res = test(arr,minus);
+// console.log(res);
